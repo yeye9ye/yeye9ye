@@ -1,0 +1,9 @@
+.bridge_map {
+    width: 100%;
+    max-width: 800px;
+    justify-self: center;
+}
+
+.bridge_data_source {
+    justify-self: right;
+}

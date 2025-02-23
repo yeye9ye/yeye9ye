@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Bridge from "./components/bridge/Bridge";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        <Bridge />
 
       </main>   
     
