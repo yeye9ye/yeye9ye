@@ -21,7 +21,7 @@ const schema = a.schema({
       date:a.date().required().default("1900-01-01"),
       type:a.string().required().default("unknown"),
       reason:a.string().required().default("unknown"),
-  })  
+  }) .authorization((allow) => [allow.publicApiKey()]),
 });
 
 export type Schema = ClientSchema<typeof schema>;
